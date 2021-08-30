@@ -14,11 +14,11 @@
         <main>
         <!-- HEADER PRSENTATION -->
         <header class="barra">
-            <ul class="me-name items">Sheila</ul>
-            <ul class="home items">Home</ul>
-            <!-- <ul class="about items">About</ul> -->
-            <ul class="skills items">Skills</ul>
-            <ul class="portfolio items">Portfolio</ul>
+            <ul class="me-name items">Sheila</ul>                      
+            <ul class="skills items"><a class="nav__link" href="#section--1">Skills</a></ul>
+            <ul class="qualif items"><a class="nav__link" href="#section--2">Qualification</a></ul>  
+            <ul class="portfolio items"><a class="nav__link" href="#section--3">Portfolio</a></ul>
+            <ul class="about items"><a class="nav__link" href="#section--4">Social media</a></ul>
         </header>
         
 
@@ -45,7 +45,7 @@
         </section> -->
 
         <!-- SKILLS -->
-        <section class="container skills-design">
+        <section class="container skills-design" id="section--1">
             <!-- title skills -->
             <div class="title title-skills">
                 <h1>Skills</h1>
@@ -53,17 +53,17 @@
             <!-- section of frontend and skills -->
             <section class="container-skills ">
                 <!-- subtitulos -->
-                <figure class="img-icon-b brackets"><img src="brackets.png" class="b-img img-i"></figure>
-                <h4 class="title-name title-frontend">Frontend developer</h4>
-                <figure class="img-icon-b vector"><img src="vector.png" class="v-img img-i"></figure>
-                <h4 class="title-name title-designer">Designer</h4>
+                <figure class="img-icon-b brackets bv-row"><img src="brackets.png" class="b-img img-i"></figure>
+                <h4 class="title-name title-frontend bv-row">Frontend developer</h4>
+                <figure class="img-icon-b vector bv-row"><img src="vector.png" class="v-img img-i"></figure>
+                <h4 class="title-name title-designer bv-row">Designer</h4>
                 
                 <!-- iconos -->
                 <figure class="img-icon html"><img src="html.png" class="html-img img-i"></figure>
-                <p class="icon-name html-name">HTML</p>
+                <p class="icon-name html-name ">HTML</p>
                 <figure class="img-icon css"><img src="css-3.png" class="css-img img-i"></figure>
-                <p class="icon-name css-name">CSS</p>
-                <figure class="img-icon js"><img src="javascript.png" class="js-img img-i"></figure>
+                <p class="icon-name  css-name">CSS</p>
+                <figure class="img-icon js "><img src="javascript.png" class="js-img img-i"></figure>
                 <p class="icon-name js-name">JavaScrips</p>
                 <figure class="img-icon git"><img src="github.png" class="git-img img-i"></figure>
                 <p class="icon-name git-name">Github</p>
@@ -75,12 +75,10 @@
 
             </section>
         </section>
-            
-           
-           
+    
 
         <!-- QUALIFICATION -->
-        <section class="container qualification">
+        <section class="container qualification" id="section--2">
             <div class="title qualification-title">
                 <h1 class="qualification">Qualification</h1>
                 <h3 class="journey">My personal journey</h3>
@@ -92,7 +90,7 @@
                     <figure class="clean clean1"><img src="clean.png" class="clean-dry"></figure>
                     <figure class="clean clean2"><img src="clean.png" class="clean-dry"></figure>
                     <figure class="clean clean3"><img src="clean.png" class="clean-dry"></figure>
-                    <h4 class="title-name title-e">Education</h4>
+                    <h4 class="title-name title-e ">Education</h4>
 
                     <div class="education1 artes">
                         <h4>Visual arts</h4>
@@ -132,25 +130,25 @@
         </section>
 
         <!-- PORTAFOLIO -->
-        <div class="container">
+        <section class="container" id="section--3">
             <div class="portfolio-title">
                 <h1>Portfolio</h1>
             </div>
 
             <div class="portfolio-container">
                 
-                    <h4 class="title-name name-calendario">Calendario</h4>
+                    <h4 class="title-name name-calendario name-proyect">Calendario</h4>
                     <figure class="fig-proyect calendario"><img class="img-proyect calendario-img" src="calendario.png"/></figure>
                     <a class="btn calendario-btn" href="https://sheilavp96.github.io/cabimax/">Ver más</a>
                 
 
                 
-                    <h4 class="title-name name-cabina">Cabimax</h4>
+                    <h4 class="title-name name-cabina name-proyect">Cabimax</h4>
                     <figure class="fig-proyect cabina"><img class="img-proyect cabina-img" src="logo2.png"/></figure>
                     <a class="btn cabina-btn" href="https://sheilavp96.github.io/cabimax/">Ver más</a>
                 
     
-                    <h4 class="title-name name-mia">Página Mía</h4>
+                    <h4 class="title-name name-mia name-proyect">Página Mía</h4>
                     <figure class="fig-proyect mia"><img class="img-proyect mia-img" src="web.png"/></figure>
                     <a class="btn mia-btn" href="https://sheilavp96.github.io/pagina-Mia/">Ver más</a>
         
@@ -158,14 +156,14 @@
         </section>
 
         <!-- FOOTER -->
-        <footer>
-            <h2 class="title-name media">Social media</h2>
+        <footer id="section--4">
+            <h2 class="title-name media" >Social media</h2>
             <div class="social-media">
-             <a class="social" href="https://github.com/sheilavp96"><figure class="fig icon-git"><img class="github-icon img-g" src="git.png"/></figure></a>
+            <a class="social" href="https://github.com/sheilavp96"><figure class="fig icon-git"><img class="github-icon img-g" src="git.png"/></figure></a>
             <a class="social"  href="https://www.linkedin.com/in/sheilavp96/"><figure class="fig icon-lin"><img class="link-icon img-g" src="linkedin.png"/></figure>
         </footer></a>
     </div>
-
+    <script src="index.js"></script>
     </body>
 </main>
 </html>
