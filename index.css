@@ -44,7 +44,7 @@
 .container-presentation {
     /* outline: 2px solid green; */
     width: 85%;
-    height: 85vh;
+    height: 90vh;
     margin: auto;
     margin-top: 20px;
     display: grid;
@@ -90,7 +90,7 @@ figure {
     grid-column: 2/3;
     /* outline: 2px solid black; */
     width: 60%;
-    height: 60%;
+    height: 41%;
     place-self: center;
 }
 
@@ -148,13 +148,17 @@ h1 {
 
 .img-icon-b {
     width: 40%;
-    height: 60%;
+    height: 30%;
 
     /* grid-row: 1/2; */
 }
+.b-img,
+.v-img {
+    width: 100%;
+}
 .img-icon {
-    width: 80px;
-    height: 80px;
+    width: 60%;
+    height: 70%;
 }
 .img-i {
     /* outline: 2px solid blue; */
@@ -287,7 +291,7 @@ h4 {
 
 .line {
     background: #6563ff;
-    width: 2%;
+    width: 1%;
     height: 80%;
     grid-column: 3/4;
     grid-row: 2/7;
@@ -365,7 +369,10 @@ h4 {
     height: 30%;
     background: #8280fa;
     text-align: center;
-    padding: 9px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 9px 0; */
     color: white;
     border-radius: 8px;
     font-family: 'Open Sans', sans-serif;
@@ -378,7 +385,6 @@ h4 {
 /* FOOTER */
 
 footer {
-    /* outline: 2px solid salmon; */
     width: 85%;
     height: 30vh;
     margin: auto;
@@ -386,15 +392,10 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* justify-content: space-evenly; */
-    gap: 10px;
-    /* background: #6563ff; */
 
-    /* gap: 20px; */
-    /* margin: auto; */
+    gap: 10px;
 }
 .social-media {
-    /* outline: 2px solid blue; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -402,14 +403,13 @@ footer {
 }
 .social {
     /* outline: 2px solid blue; */
-    width: 50px;
-    height: 50px;
+    width: 10%;
+    height: 80%;
     margin-top: 10px;
 }
 .fig {
-    /* outline: 2px solid green; */
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
 }
 
 .img-g {
@@ -451,15 +451,22 @@ footer {
         /* outline: 2px solid orangered; */
         grid-row: 1/2;
         place-self: center;
+        height: 40%;
+        width: 30%;
     }
     .brackets {
-        width: 30%;
+        /* height: 40%; */
         grid-column: 1/2;
     }
     .vector {
+        /* height: 40%; */
         grid-column: 5/6;
     }
-
+    .b-img,
+    .v-img {
+        /* outline: 2px solid, black; */
+        width: 100%;
+    }
     .title-frontend {
         grid-column: 2/4;
     }
@@ -496,13 +503,23 @@ footer {
     .js-name,
     .git,
     .git-name {
-        grid-column: 3/4;
+        grid-column: 3/5;
     }
     .ps,
     .ps-name,
     .ai,
     .ai-name {
         grid-column: 6/7;
+    }
+    .css,
+    .html,
+    .js,
+    .git {
+        outline: 2px, solid, purple;
+        width: 30%;
+        height: 75%;
+        justify-self: center;
+        align-self: center;
     }
 }
 
@@ -517,5 +534,204 @@ footer {
     }
     .udemy {
         grid-row: 6/7;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .barra {
+        /* outline: 2px solid red; */
+        width: 95%;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+        font-size: 0.3rem;
+        font-weight: lighter;
+    }
+    .items {
+        font-size: 0.3rem;
+        font-weight: 100;
+    }
+
+    .me-name {
+        display: none; /*elimine el elemento*/
+    }
+    .container-presentation {
+        height: 90vh;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .qualification {
+        /* outline: 2px solid rgb(128, 58, 0); */
+        height: 130vh;
+    }
+    .work-education {
+        /* outline: 2px solid green; */
+        height: 84%;
+    }
+    figure {
+        height: 34%;
+    }
+
+    .hi {
+        font-size: 2rem;
+    }
+
+    .text-frontend {
+        font-size: 1.1rem;
+    }
+
+    .text {
+        font-size: 0.9rem;
+    }
+    .container {
+        /* outline: 2px solid red; */
+        width: 95%;
+        /* height: 75vh; */
+    }
+    .container-skills {
+        /* display: grid; */
+        /* outline: 2px solid blue; */
+        height: 77vh;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .skills-design {
+        /* outline: 2px solid purple; */
+        height: 90vh;
+    }
+
+    .html,
+    .html-name,
+    .ps,
+    .ps-name {
+        grid-column: 1/2;
+    }
+    .img-icon-b {
+        width: 30%;
+        height: 30%;
+        grid-column: 1/2;
+    }
+    .title-designer,
+    .vector {
+        grid-row: 4/5;
+    }
+    .title-frontend {
+        grid-column: 2/4;
+    }
+    .title-designer {
+        grid-column: 2/3;
+    }
+    .js,
+    .js-name,
+    .ps,
+    .ps-name {
+        grid-column: 2/3;
+    }
+    .html,
+    .js,
+    .css,
+    .git {
+        width: 60%;
+        height: 60%;
+        grid-row: 2/3;
+    }
+    .html-name,
+    .js-name,
+    .css-name,
+    .git-name {
+        grid-row: 3/4;
+        padding-top: 10px;
+        font-size: 0.8rem;
+    }
+    .ps,
+    .ai {
+        grid-row: 5/6;
+    }
+    .ps-name,
+    .ai-name {
+        padding-top: 10px;
+        font-size: 0.8rem;
+        grid-row: 6/7;
+    }
+    .css,
+    .css-name,
+    .ai,
+    .ai-name {
+        grid-column: 3/4;
+    }
+    .git,
+    .git-name {
+        grid-column: 4/5;
+    }
+
+    /* .title-frontend,
+    .title-designer */
+    .title-name {
+        font-size: 1.2rem;
+    }
+    .line {
+        width: 2%;
+        height: 75%;
+    }
+    .clean {
+        width: 20%;
+        height: 20%;
+    }
+
+    .btn {
+        /* outline: 2px solid red; */
+        width: 30%;
+        height: 30%;
+        margin: 10px 0;
+        padding: 10px 0;
+    }
+    .container-port {
+        /* outline: 2px solid green; */
+        margin-top: 0;
+        height: 170vh;
+    }
+    .portfolio-container {
+        /* outline: 2px solid red; */
+        height: 91vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .fig-proyect {
+        /* outline: 2px solid red; */
+        width: 40%;
+        height: 40%;
+    }
+    .name-proyect {
+        /* outline: 2px solid red; */
+        padding: 15px 0;
+    }
+    .calendario,
+    .cabina {
+        width: 40%;
+        height: 40%;
+    }
+    footer {
+        width: 95%;
+        /* height: 40vh; */
+        display: flex;
+        flex-direction: column;
+    }
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* height: 50%; */
+    }
+
+    .fig {
+        width: 100%;
+        height: 100%;
+    }
+
+    .media {
+        /* height: 10%; */
+        font-size: 1.3rem;
     }
 }
