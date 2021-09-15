@@ -6,34 +6,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portafolio</title>
         <link rel="stylesheet" href="../normalize.css" />
-        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="style.css" />
     </head>
 
     <body>
-
-        <main>
+        <!-- <main> -->
         <!-- HEADER PRSENTATION -->
-        <header class="barra">
-            <ul class="me-name items">Sheila</ul>                      
-            <ul class="skills items"><a class="nav__link" href="#section--1">Skills</a></ul>
-            <ul class="qualif items"><a class="nav__link" href="#section--2">Qualification</a></ul>  
-            <ul class="portfolio items"><a class="nav__link" href="#section--3">Portfolio</a></ul>
-            <ul class="about items"><a class="nav__link" href="#section--4">Social media</a></ul>
-        </header>
-        
+        <div class="section--0">
+            <header class="barra">
+                <!-- <div class="name-me"> -->
+                <ul class="me-name items nav__link">
+                    Sheila
+                </ul>
+                <!-- </div>      -->
+                <ol class="list-menu">
+                    <ul class="skills items">
+                        <a class="nav__link" href="#section--1">Skills</a>
+                    </ul>
+                    <ul class="qualif items">
+                        <a class="nav__link" href="#section--2">Qualification</a>
+                    </ul>
+                    <ul class="portfolio items">
+                        <a class="nav__link" href="#section--3">Portfolio</a>
+                    </ul>
+                    <!-- <ul class="about items">
+                        <a class="nav__link" href="#section--4">Social media</a>
+                    </ul> -->
+                </ol>
+            </header>
 
-        <!-- SALUDO -->
-        <section class="container-presentation">
+            <!-- SALUDO -->
+            <!-- <section class="container-presentation"> -->
             <div class="presentation">
                 <h1 class="hi">Hi I'am Sheila</h1>
                 <h3 class="text-frontend">Frontend developer</h3>
-                <p class="text">Biotechnology engineering student seeking professional practice to gain work experience in web development. Eager to apply my knowledge in CSS, html and JavaScript. </p>
-                
-            </div>   
+                <p class="text">
+                    Biotechnology engineering student seeking professional practice to gain work experience in web development. Eager to apply my
+                    knowledge in CSS, html and JavaScript.
+                </p>
+            </div>
             <figure>
-                <img src="imagen.png" class="img-me">
-            </figure>         
-        </section>
+                <img src="imagen.png" class="img-me" />
+            </figure>
+            <!-- </section> -->
+        </div>
 
         <!-- ABOUT ME -->
         <!--
@@ -51,120 +67,122 @@
                 <h1>Skills</h1>
             </div>
             <!-- section of frontend and skills -->
-            <section class="container-skills ">
+            <section class="container-skills">
                 <!-- subtitulos -->
-                <figure class="img-icon-b brackets bv-row"><img src="brackets.png" class="b-img img-i"></figure>
-                <h4 class="title-name title-frontend bv-row">Frontend developer</h4>
-                <figure class="img-icon-b vector bv-row"><img src="vector.png" class="v-img img-i"></figure>
-                <h4 class="title-name title-designer bv-row">Designer</h4>
-                
+                <!-- <div class="title-fd"> -->
+                <!-- <div class="img-title-1"> -->
+                <figure class="img-icon-b brackets"><img src="brackets.png" class="b-img" /></figure>
+                <h4 class="title-name title-frontend">Frontend developer</h4>
+                <!-- </div> -->
+                <!-- <div class="img-title-2"> -->
+                <figure class="img-icon-b vector"><img src="vector.png" class="v-img" /></figure>
+                <h4 class="title-name title-designer">Designer</h4>
+                <!-- </div> -->
+                <!-- </div> -->
+
                 <!-- iconos -->
-                <figure class="img-icon html"><img src="html.png" class="html-img img-i"></figure>
-                <p class="icon-name html-name ">HTML</p>
-                <figure class="img-icon css"><img src="css-3.png" class="css-img img-i"></figure>
-                <p class="icon-name  css-name">CSS</p>
-                <figure class="img-icon js "><img src="javascript.png" class="js-img img-i"></figure>
+                <figure class="img-icon html"><img src="html.png" class="html-img img-i" /></figure>
+                <p class="icon-name html-name">HTML</p>
+                <figure class="img-icon css"><img src="css-3.png" class="css-img img-i" /></figure>
+                <p class="icon-name css-name">CSS</p>
+                <figure class="img-icon js"><img src="javascript.png" class="js-img img-i" /></figure>
                 <p class="icon-name js-name">JavaScrips</p>
-                <figure class="img-icon git"><img src="git.png" class="git-img img-i"></figure>
+                <figure class="img-icon git"><img src="git.png" class="git-img img-i" /></figure>
                 <p class="icon-name git-name">Git</p>
-                <figure class="img-icon ps"><img src="photoshop.png" class="ps-img img-i"></figure>
+                <figure class="img-icon ps"><img src="photoshop.png" class="ps-img img-i" /></figure>
                 <p class="icon-name ps-name">Photoshop</p>
-                <figure class="img-icon ai"><img src="illustrator.png" class="ai-img img-i"></figure>
+                <figure class="img-icon ai"><img src="illustrator.png" class="ai-img img-i" /></figure>
                 <p class="icon-name ai-name">Illustrator</p>
-
-
             </section>
         </section>
-    
 
         <!-- QUALIFICATION -->
         <section class="container qualification" id="section--2">
             <div class="title qualification-title">
-                <h1 >Qualification</h1> <!-- class="qualification" -->
+                <h1>Qualification</h1>
+                <!-- class="qualification" -->
                 <h3 class="journey">My personal journey</h3>
             </div>
 
             <section class="work-education">
                 <!-- EDUCATION -->
-                    <div class="line"></div>
-                    <figure class="clean clean1"><img src="clean.png" class="clean-dry"></figure>
-                    <figure class="clean clean2"><img src="clean.png" class="clean-dry"></figure>
-                    <figure class="clean clean3"><img src="clean.png" class="clean-dry"></figure>
-                    <h4 class="title-name title-e ">Education</h4>
+                <div class="line"></div>
+                <figure class="clean clean1"><img src="clean.png" class="clean-dry" /></figure>
+                <figure class="clean clean2"><img src="clean.png" class="clean-dry" /></figure>
+                <figure class="clean clean3"><img src="clean.png" class="clean-dry" /></figure>
+                <h4 class="title-name title-e">Education</h4>
 
-                    <div class="education1 artes">
-                        <h4>Visual arts</h4>
-                        <p class="text-we">Mérida - Bellas artes</p>
-                        <p class="text-we year">2009-2012</p>
-                    </div>
+                <div class="education1 artes">
+                    <h4>Visual arts</h4>
+                    <p class="text-we">Mérida - Bellas artes</p>
+                    <p class="text-we year">2009-2012</p>
+                </div>
 
-                    <div class="education1 uady">
-                        <h4>Enginnering biotechnology</h4>
-                        <p class="text-we">Mérida - Facultad de ingeniería química UADY</p>
-                        <p class="text-we year">2015 - Present</p>
-                    </div>
+                <div class="education1 uady">
+                    <h4>Enginnering biotechnology</h4>
+                    <p class="text-we">Mérida - Facultad de ingeniería química UADY</p>
+                    <p class="text-we year">2015 - Present</p>
+                </div>
 
-                    <div class="education1 udemy">
-                        <h4>HTML, CSS and JavaScript</h4>
-                        <p class="text-we">Mérida - Udemy</p>
-                        <p class="text-we year">2021 - Present</p>
-                    </div>
-                
+                <div class="education1 udemy">
+                    <h4>HTML, CSS and JavaScript</h4>
+                    <p class="text-we">Mérida - Udemy</p>
+                    <p class="text-we year">2021 - Present</p>
+                </div>
 
                 <!-- WORK -->
-                
-                    <h4 class="title-name title-w">Work</h4>
-                    <div class="work1 foto">
-                        <h4>Perfiles fotográficos</h4>
-                        <p class="text-we">Atención al cliente</p>
-                        <p class="text-we year">2018 - 2019</p>
-                    </div>
 
-                    <div class="work1 cabimax">
-                        <h4>Cabimax</h4>
-                        <p class="text-we">CEO</p>
-                        <p class="text-we year">2018 - Present</p>
-                    </div>
-                
+                <h4 class="title-name title-w">Work</h4>
+                <div class="work1 foto">
+                    <h4>Perfiles fotográficos</h4>
+                    <p class="text-we">Atención al cliente</p>
+                    <p class="text-we year">2018 - 2019</p>
+                </div>
+
+                <div class="work1 cabimax">
+                    <h4>Cabimax</h4>
+                    <p class="text-we">CEO</p>
+                    <p class="text-we year">2018 - Present</p>
+                </div>
             </section>
         </section>
 
         <!-- PORTAFOLIO -->
         <section class="container container-port" id="section--3">
-            <div class="portfolio-title">
-                <h1>Portfolio</h1>
-            </div>
+            <h1 class="portfolio-title">Portfolio</h1>
 
-            <div class="portfolio-container">
-                
-                    <h4 class="title-name name-calendario name-proyect">Calendario</h4>
-                    <figure class="fig-proyect calendario"><img class="img-proyect calendario-img" src="calendario.png"/></figure>
-                    <a class="btn calendario-btn" href="https://sheilavp96.github.io/Calendario/">Ver más</a>
-                
+            <!-- <div class="portfolio-container"> -->
+            <h4 class="title-name name-calendario name-proyect">Calendario</h4>
+            <figure class="fig-proyect calendario"><img class="img-proyect calendario-img" src="calendario.png" /></figure>
+            <a class="btn calendario-btn" href="https://sheilavp96.github.io/Calendario/" target="_blank">Ver más</a>
 
-                
-                    <h4 class="title-name name-cabina name-proyect">Cabimax</h4>
-                    <figure class="fig-proyect cabina"><img class="img-proyect cabina-img" src="logo2.png"/></figure>
-                    <a class="btn cabina-btn" href="https://sheilavp96.github.io/cabimax/">Ver más</a>
-                
-    
-                    <h4 class="title-name name-mia name-proyect">Página Mía</h4>
-                    <figure class="fig-proyect mia"><img class="img-proyect mia-img" src="web.png"/></figure>
-                    <a class="btn mia-btn" href="https://sheilavp96.github.io/pagina-Mia/">Ver más</a>
-        
-            </div>
+            <h4 class="title-name name-cabina name-proyect">Cabimax</h4>
+            <figure class="fig-proyect cabina"><img class="img-proyect cabina-img" src="logo2.png" /></figure>
+            <a class="btn cabina-btn" href="https://sheilavp96.github.io/cabimax/" target="_blank">Ver más</a>
+
+            <h4 class="title-name name-mia name-proyect">Página Mía</h4>
+            <figure class="fig-proyect mia"><img class="img-proyect mia-img" src="web.png" /></figure>
+            <a class="btn mia-btn" href="https://sheilavp96.github.io/pagina-Mia/" target="_blank">Ver más</a>
+            <!-- </div> -->
+
+            <!-- <img src="right-arrow.svg" alt="arrow" class="up" /> -->
         </section>
 
         <!-- FOOTER -->
-        <footer id="section--4">
-            <h2 class="title-name media" >Social media</h2>
+        <section class="section-social" id="section--4">
+            <!-- <h2 class="title-name media" >Social media</h2> -->
             <div class="social-media">
-            <a class="social" href="https://github.com/sheilavp96"><figure class="fig icon-git"><img class="github-icon img-g" src="github.png"/></figure></a>
-            <a class="social"  href="https://www.linkedin.com/in/sheilavp96/"><figure class="fig icon-lin"><img class="link-icon img-g" src="linkedin.png"/></figure>
+                <a class="social" href="https://github.com/sheilavp96" target="_blank"
+                    ><figure class="fig icon-git"><img class="github-icon img-g" src="github.png" /></figure
+                ></a>
+                <a class="social" href="https://www.linkedin.com/in/sheilavp96/" target="_blank"
+                    ><figure class="fig icon-lin"><img class="link-icon img-g" src="linkedin.png" /></figure
+                ></a>
+                <img src="right-arrow.svg" alt="arrow" class="up" />
             </div>
-        </footer></a>
-    
-    <script src="index.js"></script>
+        </section>
+
+        <script src="script.js"></script>
     </body>
-</main>
+    <!-- </main> -->
 </html>
