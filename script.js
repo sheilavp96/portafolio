@@ -7,3 +7,11 @@ document.querySelector('.barra').addEventListener('click', function (e) {
         document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
     }
 });
+
+const section0 = document.querySelector('.section--0');
+
+document.querySelector('.up').addEventListener('click', function (a) {
+    // a.preventDefault();
+    // console.log(a);
+    section0.scrollIntoView({ behavior: 'smooth' });
+});
